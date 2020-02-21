@@ -1,0 +1,35 @@
+// Palette
+$primary-color: #24292e;
+
+// Font Family
+$ku-font-family-1: 'Times New Roman', Times, serif;
+$ku-font-family-2: Arial, Helvetica, sans-serif;
+
+// Font Weights
+$ku-font-weight-1: 100;
+$ku-font-weight-2: 200;
+$ku-font-weight-3: 300;
+$ku-font-weight-4: 400;
+$ku-font-weight-5: 500;
+$ku-font-weight-6: 600;
+$ku-font-weight-7: 700;
+
+// Button - API
+// Variable structure
+// [element]__[styled-element]__[pseudo]
+
+// Button Global
+$ku-button-padding: 0 40px;
+$ku-button-height: 40px;
+
+// Primary
+$ku-button--primary__background-color: #e2e2e2;
+$ku-button--primary__color: #2D2D2D;
+$ku-button--primary__border: 1px solid #bebebe;
+
+// Primary - hover
+$ku-button--primary__background-color__hover: #a7a7a7;
+$ku-button--primary__color__hover: #2D2D2D;
+
+// Primary - focus
+$ku-button--primary__border__focus: 1px solid #2d2d2d;
