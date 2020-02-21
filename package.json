@@ -9,7 +9,8 @@
     "setup": "copyfiles -f node_modules/kudu-core-framework/dist/src/styles/theme/_theme.scss src/styles/theme",
     "storybook": "start-storybook",
     "build:sass": "node-sass -r --output-style compressed src/styles/core.scss -o dist",
-    "watch:sass": "npm run build:sass && npm run build:sass -- -w"
+    "watch:sass": "npm run build:sass && npm run build:sass -- -w",
+    "start": "concurrently --kill-others \"npm run start-storybook\" \"npm run watch:sass\""
   },
   "repository": {
     "type": "git",
