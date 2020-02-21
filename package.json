@@ -1,0 +1,32 @@
+{
+  "name": "kudu-core-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "start-storybook",
+    "build:sass": "node-sass -r --output-style compressed src/styles/core.scss -o dist",
+    "watch:sass": "npm run build:sass && npm run build:sass -- -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boakenfull/kudu-core-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boakenfull/kudu-core-template/issues"
+  },
+  "homepage": "https://github.com/boakenfull/kudu-core-template#readme",
+  "dependencies": {
+    "@babel/core": "^7.8.4",
+    "babel-loader": "^8.0.6",
+    "kudu-core-framework": "^0.0.4",
+    "node-sass": "^4.13.1"
+  },
+  "peerDependencies": {
+    "prop-types": "^15.5.4",
+    "react": "^15.0.0 || ^16.0.0",
+    "react-dom": "^15.0.0 || ^16.0.0"
+  }
+}
