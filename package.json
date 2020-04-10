@@ -10,7 +10,7 @@
     "storybook": "start-storybook",
     "build:sass": "node-sass -r --output-style compressed src/styles/core.scss -o dist",
     "watch:sass": "npm run build:sass && npm run build:sass -- -w",
-    "start": "concurrently --kill-others \"npm run start-storybook\" \"npm run watch:sass\""
+    "start": "concurrently --kill-others \"npm run storybook\" \"npm run watch:sass\""
   },
   "repository": {
     "type": "git",
@@ -29,7 +29,7 @@
     "@storybook/addon-viewport": "^5.3.13",
     "babel-loader": "^8.0.6",
     "copyfiles": "^2.2.0",
-    "kudu-core-framework": "^0.0.5",
+    "kudu-core-framework": "^0.0.8",
     "node-sass": "^4.13.1"
   },
   "peerDependencies": {

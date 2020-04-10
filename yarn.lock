@@ -5366,10 +5366,10 @@ klaw@^1.0.0:
   optionalDependencies:
     graceful-fs "^4.1.9"
 
-kudu-core-framework@^0.0.5:
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/kudu-core-framework/-/kudu-core-framework-0.0.5.tgz#fa27ca13a993a2a1ea8967f9cedd2e7a6d145331"
-  integrity sha512-ULSWJQh2MEJGpV5sJw+wC2nr675il8bNZpZnIylLKDsAuEhAoX4XL/23X3PAUBQGnLDXCzYoD7qPSfpnyrHWVA==
+kudu-core-framework@^0.0.8:
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/kudu-core-framework/-/kudu-core-framework-0.0.8.tgz#33cb3a339e20abaf0e330ba5f84c8fa9ce68a288"
+  integrity sha512-6X774ZGymUJebqRPLch1UctaH1oBUB2cjT4HXhHR1DsLjPe2pUdu2hNd+45R4jTchO2s4yVtcD19rI86OiOxqg==
   dependencies:
     "@rollup/plugin-json" "^4.0.2"
     "@storybook/react" "^5.3.13"
