@@ -6,7 +6,7 @@ import { action } from '@storybook/addon-actions'
 import { Button } from 'kudu-core-framework'
 import { TextInput } from 'kudu-core-framework'
 
-storiesOf('components', module)
+storiesOf('Themework - Components', module)
   .add('Button', () => (
     <Button>
       {text('Label', 'Hello Storybook')}

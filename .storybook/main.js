@@ -1,5 +1,5 @@
 module.exports = {
-    stories: ['../src/**/*.stories.(js|mdx)'],
+    stories: ['../.themework/**/*.stories.(js|mdx)', '../src/**/*.stories.(js|mdx)'],
     addons: [
       '@storybook/addon-knobs/register',
       '@storybook/addon-viewport/register',
@@ -7,4 +7,3 @@ module.exports = {
       '@storybook/addon-actions/register'
     ]
   };
-  

@@ -7,17 +7,18 @@ function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'defau
 var React = _interopDefault(require('react'));
 var PropTypes = _interopDefault(require('prop-types'));
 
-var Button = function Button(props) {
+var Demo = function Demo(_ref) {
+  var children = _ref.children;
   return React.createElement(
-    'button',
-    { className: 'ku-c-button ku-c-button--primary' },
-    props.children
+    'p',
+    { className: 'c-demo' },
+    children
   );
 };
 
-Button.propTypes = {
+Demo.propTypes = {
   children: PropTypes.string.isRequired
 };
 
-exports.Button = Button;
+exports.Demo = Demo;
 //# sourceMappingURL=index.js.map
