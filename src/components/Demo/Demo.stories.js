@@ -4,7 +4,7 @@ import { text } from '@storybook/addon-knobs'
 
 import { Demo } from '../../../dist/index.js'
 
-storiesOf('Components', module)
+storiesOf('Local - Components', module)
   .add('Demo', () => (
     <Demo>
       {text('Label', 'Hello Storybook')}
