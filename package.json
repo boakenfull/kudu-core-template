@@ -1,11 +1,10 @@
 {
   "name": "kudu-core-template",
   "version": "0.0.0",
-  "description": "",
-  "main": "dist/index.js",
-  "module": "dist/index.es.js",
+  "description": "Themework Template",
   "scripts": {
-    "build": "npm run copy:build && npm run build:sass",
+    "build:old": "npm run copy:build && npm run build:sass",
+    "build": "rollup -c",
     "copy:build": "copyfiles -f node_modules/kudu-core-framework/dist/index.js dist",
     "setup": "copyfiles -f 'node_modules/kudu-core-framework/dist/src/styles/theme/**/*.scss' src/styles/theme",
     "storybook": "start-storybook",
@@ -47,6 +46,7 @@
     "contents": "dist"
   },
   "devDependencies": {
+    "@rollup/plugin-multi-entry": "^3.0.0",
     "@storybook/addon-actions": "^5.3.18",
     "@storybook/react": "^5.3.18",
     "@svgr/rollup": "^2.4.1",
