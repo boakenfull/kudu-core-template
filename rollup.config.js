@@ -17,6 +17,7 @@ export default {
   ],
   plugins: [
     json(),
+    multi(),
     external(),
     url(),
     svgr(),

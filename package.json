@@ -4,10 +4,11 @@
   "description": "Themework Template",
   "scripts": {
     "build:old": "npm run copy:build && npm run build:sass",
-    "build": "rollup -c",
+    "build": "yarn run build:sass && yarn build:js",
     "copy:build": "copyfiles -f node_modules/kudu-core-framework/dist/index.js dist",
     "setup": "copyfiles -f 'node_modules/kudu-core-framework/dist/src/styles/theme/**/*.scss' src/styles/theme",
     "storybook": "start-storybook",
+    "build:js": "rollup -c",
     "build:sass": "node-sass -r --output-style compressed src/styles/core.scss -o dist",
     "watch:sass": "npm run build:sass && npm run build:sass -- -w",
     "start": "concurrently --kill-others \"npm run watch:sass\" \"npm run watch:js\" \"npm run storybook\"",
