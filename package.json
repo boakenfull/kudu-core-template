@@ -47,7 +47,6 @@
     "contents": "dist"
   },
   "devDependencies": {
-    "@rollup/plugin-multi-entry": "^3.0.0",
     "@storybook/addon-actions": "^5.3.18",
     "@storybook/react": "^5.3.18",
     "@svgr/rollup": "^2.4.1",
