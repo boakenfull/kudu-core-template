@@ -2,6 +2,8 @@
   "name": "kudu-core-template",
   "version": "0.0.0",
   "description": "Themework Template",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
   "scripts": {
     "build:old": "npm run copy:build && npm run build:sass",
     "build": "yarn run build:sass && yarn build:js",
